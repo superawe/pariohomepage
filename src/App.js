@@ -17,7 +17,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Test the bodhi app
+            Try out the bodhi app
           </a>
         </header>
       </div>
