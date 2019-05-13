@@ -1,26 +1,15 @@
-import React, { Component } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import { Route, Switch } from "react-router-dom";
+// We will create these two pages in a moment
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>Home of Pario AB</p>
-          <a
-            className="App-link"
-            href="https://bodhiapp.io"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Try out bodhi app
-          </a>
-        </header>
-      </div>
-    );
-  }
+export default function App() {
+  return (
+    <Switch>
+      <Route exact path="/" component={HomePage} />
+      <Route path="/about" component={AboutPage} />
+      <Route component={HomePage} />
+    </Switch>
+  );
 }
-
-export default App;
