@@ -8,15 +8,8 @@ export default function HomePage() {
     <div className="container">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Home of Pario AB</p>
-        <a
-          className="App-link"
-          href="https://bodhiapp.io"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Try out bodhi app
-        </a>
+        <p>Home of Pario</p>
+        <p>This is default page</p>
         <p>
           <Link to="/about">About</Link>
         </p>
