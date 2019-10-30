@@ -1,36 +1,11 @@
 import React, { Component, PropTypes } from "react";
 import { connect } from "react-redux";
-//import { firebase, helpers } from 'react-redux-firebase'
-import { footer } from "../../Actions/Dom";
-//const { isLoaded, isEmpty, pathToJS, dataToJS } = helpers
-//import ParticleContainer from "../Particles";
 import Word from "../../Word";
 
 class AboutPage extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      words: {
-        a: {
-          word: "Web development"
-        },
-        b: {
-          word: "Serverless"
-        },
-        c: {
-          word: "API design"
-        },
-        d: {
-          word: "Cloud architecture"
-        },
-        e: {
-          word: "Consultants"
-        },
-        f: {
-          word: "AI implementations"
-        }
-      }
-    };
+    this.state = {};
   }
 
   componentDidMount() {
@@ -46,13 +21,13 @@ class AboutPage extends Component {
     const { words } = this.state;
     document.title = `Pario AB`;
     return (
-      <div className="Landing-container">
-        <div className="Landing-overlay"></div>
-        <div className="Landing-about">
-          <h1>Pario</h1>
-          <div className="Word-container">
-            <Word words={words} />
-          </div>
+      <div className="About-container">
+        <div className="About-header">
+          <h1>About</h1>
+        </div>
+        <div className="About-main">
+          I'm a web developer. As you can see I've got other stuff to do than to
+          finish this about page.
         </div>
       </div>
     );
