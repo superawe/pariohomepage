@@ -26,8 +26,12 @@ class AboutPage extends Component {
           <h1>About</h1>
         </div>
         <div className="About-main">
-          I'm a web developer. As you can see I've got other stuff to do than to
-          finish this about page.
+          <p>I'm a full stack developer based in Stockholm.</p>
+          <p>
+            <strong>Main interests;</strong> .Net, c#, Azure-functions,
+            Sql-server, NoSql, Azure cloud solutions, API-design, React.
+          </p>
+          <p>I work as a consultant, for inquires - send me an email.</p>
         </div>
       </div>
     );
