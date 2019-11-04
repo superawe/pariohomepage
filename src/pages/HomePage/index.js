@@ -47,7 +47,6 @@ class HomePage extends Component {
     document.title = `Pario AB`;
     return (
       <div className="Landing-container">
-        <div className="Landing-overlay"></div>
         <div className="Landing-about">
           <h1>Pario</h1>
           <div className="Word-container">
