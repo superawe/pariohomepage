@@ -3629,7 +3629,7 @@ article {
 
 .Word-container span {
   text-transform: uppercase; }
-
+/*
 .Word-container:not(.Word-container--rotate) .Word-letter {
   -webkit-animation: rotateIn .5s forwards;
           animation: rotateIn .5s forwards; }
@@ -3637,7 +3637,7 @@ article {
 .Word-container.Word-container--rotate .Word-letter {
   -webkit-animation: rotateOut .5s forwards;
           animation: rotateOut .5s forwards; }
-
+*/
 .Word-letter {
   color: white; }
 

@@ -1,6 +1,5 @@
 import React, { Component, PropTypes } from "react";
 import { connect } from "react-redux";
-import Word from "../../Word";
 
 class AboutPage extends Component {
   constructor(props) {
@@ -18,7 +17,6 @@ class AboutPage extends Component {
     //this.props.dispatch(footer(false));
   }
   render() {
-    const { words } = this.state;
     document.title = `Pario AB`;
     return (
       <div className="About-container">
