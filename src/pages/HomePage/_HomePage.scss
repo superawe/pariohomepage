@@ -10,6 +10,11 @@
   height: calc(100vh);
   //height: calc(100vh - 75px);
   width: 100%;
+
+  @media (min-height: 400px) and (max-width: 800px) {
+    background-position-x: calc((100vw - 800px) / 2);
+  }
+
   @include breakpoint($p-headerCollapse) {
     // height: calc(100vh + #{$p-menuHeight});
     height: calc(100vh);
