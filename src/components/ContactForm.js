@@ -14,6 +14,22 @@ class ContactForm extends React.Component {
   }
   componentWillReceiveProps(nextProps) {}
 
+  componentDidMount() {
+    console.log(navigator.userAgent);
+    fetch("https://pario-api.azurewebsites.net/api/Visitors", {
+      method: "POST",
+      headers: new Headers(),
+      body: JSON.stringify({ ua: navigator.userAgent })
+    })
+      .then(res => res.json())
+      .then(data => {
+        console.log(data);
+      })
+      .catch(err => {
+        console.log(err);
+      });
+  }
+
   onSubmit(event) {
     event.stopPropagation();
     event.preventDefault();
