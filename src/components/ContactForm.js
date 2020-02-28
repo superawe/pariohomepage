@@ -73,7 +73,7 @@ class ContactForm extends React.Component {
               <h2 className="text-white mb-2">Vill du veta mer?</h2>
               <p className="mb-4 text-white">
                 Efter många år i branschen har jag ett rikt kontaktnät av
-                utvecklare, desingers, uxare, testare och marknadsförare. Lämna
+                utvecklare, designers, uxare, testare och marknadsförare. Lämna
                 din e-postadress och låt oss diskutera hur jag kan hjälpa er.
               </p>
               {this.state.sendError === true && (
