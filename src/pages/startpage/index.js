@@ -178,10 +178,10 @@ function StartPage() {
               <div className="col-lg-6">
                 <div className="img-overlay"></div>
                 <video
-                  autoplay
+                  autoPlay
                   muted
                   loop
-                  playsinline
+                  playsInline
                   poster="assets/img/catiphoneposter.jpg"
                   style={{
                     display: "block",
