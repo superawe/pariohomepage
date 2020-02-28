@@ -60,7 +60,11 @@ function StartPage() {
                 </p>
               </div>
             </div>
-            <img src="img/ipad_white.png" className="img-fluid" alt=""></img>
+            <img
+              src="assets/img/ipad_white.png"
+              className="img-fluid"
+              alt=""
+            ></img>
           </div>
         }
       ></Section>
@@ -75,7 +79,7 @@ function StartPage() {
               <div className="col-xl-8 col-lg-7">
                 <img
                   className="img-fluid mb-3 mb-lg-0"
-                  src="img/wnsoftware.jpg"
+                  src="assets/img/wnsoftware.jpg"
                   alt=""
                 ></img>
               </div>
@@ -106,7 +110,7 @@ function StartPage() {
               <div className="col-xl-8 col-lg-7">
                 <img
                   className="img-fluid mb-3 mb-lg-0"
-                  src="img/bodhiapp2.jpg"
+                  src="assets/img/bodhiapp2.jpg"
                   alt=""
                 ></img>
               </div>
@@ -138,7 +142,7 @@ function StartPage() {
               <div className="col-lg-6">
                 <img
                   className="img-fluid"
-                  src="img/softrunning.jpg"
+                  src="assets/img/softrunning.jpg"
                   alt=""
                 ></img>
               </div>
@@ -160,7 +164,7 @@ function StartPage() {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          <img src="img/appstore_blk.svg" alt=""></img>
+                          <img src="assets/img/appstore_blk.svg" alt=""></img>
                         </a>
                       </p>
                     </div>
@@ -177,7 +181,7 @@ function StartPage() {
                   autoPlay
                   muted
                   loop
-                  poster="/img/catiphoneposter.jpg"
+                  poster="assets/img/catiphoneposter.jpg"
                   style={{
                     display: "block",
                     width: "100%",
@@ -187,7 +191,7 @@ function StartPage() {
                     top: 0
                   }}
                 >
-                  <source src="/img/catiphone3.mp4" type="video/mp4" />
+                  <source src="assets/img/catiphone3.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="col-lg-6 order-lg-first">
@@ -209,7 +213,7 @@ function StartPage() {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          <img src="img/appstore_blk.svg" alt=""></img>
+                          <img src="assets/img/appstore_blk.svg" alt=""></img>
                         </a>
                       </p>
                     </div>

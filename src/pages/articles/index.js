@@ -45,7 +45,7 @@ class StartPage extends Component {
                   </p>
                 </div>
               </div>
-              <img src="img/ipad.png" className="img-fluid" alt=""></img>
+              <img src="assets/img/ipad.png" className="img-fluid" alt=""></img>
             </div>
           }
         ></Section>
