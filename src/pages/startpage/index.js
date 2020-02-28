@@ -181,6 +181,7 @@ function StartPage() {
                   autoPlay
                   muted
                   loop
+                  playsinline
                   poster="assets/img/catiphoneposter.jpg"
                   style={{
                     display: "block",
