@@ -1,6 +1,2 @@
+# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow: /cgi-bin/
-Allow: /*.css$
-Allow: /*.js$
-
-Sitemap: https://www.pario.se/sitemap.xml
