@@ -178,7 +178,7 @@ function StartPage() {
               <div className="col-lg-6">
                 <div className="img-overlay"></div>
                 <video
-                  autoPlay
+                  autoplay
                   muted
                   loop
                   playsinline
