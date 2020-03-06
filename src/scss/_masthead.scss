@@ -50,4 +50,8 @@
       font-size: 1.25rem;
     }
   }
+
+  @media (max-width: 600px) {
+    background-position: 0px 0px, calc((100vw - 1000px) / 2) center;
+  }
 }
