@@ -192,7 +192,7 @@ function StartPage() {
                     top: 0
                   }}
                 >
-                  <source src="https://parioweb.z6.web.core.windows.net/assets/img/catiphone3.mp4" type="video/mp4" />
+                  <source src="assets/img/catiphone3.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="col-lg-6 order-lg-first">
