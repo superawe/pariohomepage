@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/Header";
 import Section from "../../components/Section";
 import ContactForm from "../../components/ContactForm";
+import InViewVideo from "../../components/InViewVideo";
 //import { NavHashLink as Link } from "react-router-hash-link";
 import * as Scroll from "react-scroll";
 
@@ -177,23 +178,7 @@ function StartPage() {
             <div className="row justify-content-center no-gutters">
               <div className="col-lg-6">
                 <div className="img-overlay"></div>
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  poster="assets/img/catiphoneposter.jpg"
-                  style={{
-                    display: "block",
-                    width: "100%",
-                    height: "auto",
-                    //position: "fixed",
-                    left: 0,
-                    top: 0
-                  }}
-                >
-                  <source src="assets/img/catiphone3.mp4" type="video/mp4" />
-                </video>
+                <InViewVideo></InViewVideo>
               </div>
               <div className="col-lg-6 order-lg-first">
                 <div className="bg-black text-center h-100 project">
