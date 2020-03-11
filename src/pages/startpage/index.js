@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../../components/Header";
 import Section from "../../components/Section";
-import ContactForm from "../../components/ContactForm";
 import InViewVideo from "../../components/InViewVideo";
+import InViewContactForm from "../../components/InViewContactForm";
 //import { NavHashLink as Link } from "react-router-hash-link";
 import * as Scroll from "react-scroll";
 
@@ -210,7 +210,7 @@ function StartPage() {
           </div>
         }
       ></Section>
-      <ContactForm></ContactForm>
+      <InViewContactForm></InViewContactForm>
       <Section
         name="contact"
         classList="bg-black"
