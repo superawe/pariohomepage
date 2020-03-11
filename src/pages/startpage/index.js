@@ -238,7 +238,7 @@ function StartPage() {
                     <h4 className="text-uppercase m-0">E-post</h4>
                     <hr className="my-4"></hr>
                     <div className="small text-black-50">
-                      <a href="mailto:">arvid@pario.se</a>
+                      <a href="mailto:arvid@pario.se">arvid@pario.se</a>
                     </div>
                   </div>
                 </div>
