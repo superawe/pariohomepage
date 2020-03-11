@@ -57,8 +57,6 @@ const InViewContactForm = () => {
 
   return (
     <section id="#signup" name="signup" className={"signup-section"} ref={ref}>
-      {inView && <div>syns nu</div>}
-
       <div className="container">
         <div className="row">
           <div className="col-md-10 col-lg-8 mx-auto text-center">
