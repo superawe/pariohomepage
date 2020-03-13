@@ -1,0 +1,32 @@
+.articles-section {
+  padding-top: 10rem;
+  background: linear-gradient(
+    to bottom,
+    $black 0%,
+    #{fade-out($black, 0.1)} 75%,
+    #{fade-out($black, 0.2)} 100%
+  );
+  p {
+    margin-bottom: 5rem;
+  }
+}
+
+.articlebox {
+  //background-color: red;
+}
+.articlehead {
+  //background-color: blue !important;
+  font-size: 24px;
+}
+.articletext {
+  //background-color: blue !important;
+  //font-size: 16px;
+  color: rgba(0, 0, 0, 0.54) !important;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.articlelist {
+  margin-top: 60px;
+}
