@@ -19,7 +19,7 @@ const ArticleBox = props => {
         >
           <img
             className="img-fluid mb-2"
-            src="assets/img/softrunning.jpg"
+            src={"/assets/img/" + props.image}
             alt=""
           ></img>
         </NavLink>

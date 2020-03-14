@@ -22,7 +22,6 @@ class StartPage extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-lg-8 mx-auto">
-                  <h2 className="text-white mb-4">Articles</h2>
                   <p className="text-white-50">
                     A collection of thoughts and experiments
                   </p>
@@ -38,16 +37,19 @@ class StartPage extends Component {
                 headline="Serverless"
                 abstract="My thoughts on serverless computing, the whats and whys"
                 articleid="serverless"
+                image="serverlesslogos.jpg"
               ></ArticleBox>
               <ArticleBox
                 headline="Serving static content"
                 abstract="Simple, affordable and scalable ways to serve static html"
                 articleid="staticcontent"
+                image="ipad_white.png"
               ></ArticleBox>
               <ArticleBox
                 headline="Serverless API"
                 abstract="Using Azure functions to build a scalable API"
                 articleid="serverlessapi"
+                image="serverlesslogos1.jpg"
               ></ArticleBox>
             </div>
           </div>
