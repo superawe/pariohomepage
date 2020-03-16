@@ -4,8 +4,8 @@ import { useInView } from "react-intersection-observer";
 const InViewVideo = () => {
   const [ref, inView, entry] = useInView({
     /* Optional options */
-    threshold: 0,
-    triggerOnce: true
+    triggerOnce: true,
+    rootMargin: "200px"
   });
 
   return (
@@ -25,7 +25,12 @@ const InViewVideo = () => {
           top: 0
         }}
       >
-        {inView && <source src="assets/img/catiphone3.mp4" type="video/mp4" />}
+        {inView && (
+          <source
+            src="https://parioweb.z6.web.core.windows.net/assets/img/catiphone3.mp4"
+            type="video/mp4"
+          />
+        )}
       </video>
     </div>
   );

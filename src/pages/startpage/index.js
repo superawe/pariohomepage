@@ -81,7 +81,7 @@ function StartPage() {
                 <img
                   className="img-fluid mb-3 mb-lg-0"
                   src="assets/img/wnsoftware.jpg"
-                  alt=""
+                  alt="Wide narrow software"
                 ></img>
               </div>
               <div className="col-xl-4 col-lg-5">
@@ -112,7 +112,7 @@ function StartPage() {
                 <img
                   className="img-fluid mb-3 mb-lg-0"
                   src="assets/img/bodhiapp2.jpg"
-                  alt=""
+                  alt="Bodhi software"
                 ></img>
               </div>
 
@@ -144,7 +144,7 @@ function StartPage() {
                 <img
                   className="img-fluid"
                   src="assets/img/softrunning.jpg"
-                  alt=""
+                  alt="Softrunning App"
                 ></img>
               </div>
               <div className="col-lg-6">
@@ -199,7 +199,10 @@ function StartPage() {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          <img src="assets/img/appstore_blk.svg" alt=""></img>
+                          <img
+                            src="assets/img/appstore_blk.svg"
+                            alt="3D Head puppets app"
+                          ></img>
                         </a>
                       </p>
                     </div>
