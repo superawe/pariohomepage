@@ -15,7 +15,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={StartPage} />
           <Route path="/start" component={StartPage} />
-          <Route path="/articles" component={ArticlePage} />
+          <Route exact path="/articles" component={ArticlePage} />
           <Route component={StartPage} />
         </Switch>
       </main>

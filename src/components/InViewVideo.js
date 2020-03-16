@@ -1,8 +1,8 @@
-import React, { useRef } from "react";
+import React from "react";
 import { useInView } from "react-intersection-observer";
 
 const InViewVideo = () => {
-  const [ref, inView, entry] = useInView({
+  const [ref, inView] = useInView({
     /* Optional options */
     triggerOnce: true,
     rootMargin: "200px"

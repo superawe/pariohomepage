@@ -42,7 +42,6 @@ const InViewContactForm = () => {
     })
       .then(res => res.json())
       .then(data => {
-        console.log(data);
         setFormSubmitted(true);
         setFormSubmitting(false);
         setEmail("");
