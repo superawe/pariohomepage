@@ -4,6 +4,8 @@ import { Route, Switch } from "react-router-dom";
 import "./App.scss";
 import TopMenu from "./components/TopMenu";
 import StartPage from "./pages/startpage";
+import ArticlesOverviewPage from "./pages/articlesoverview";
+import ArticlesServerlessPage from "./pages/articles/serverless";
 import ArticlePage from "./pages/articles";
 
 function App() {
@@ -15,7 +17,14 @@ function App() {
         <Switch>
           <Route exact path="/" component={StartPage} />
           <Route path="/start" component={StartPage} />
-          <Route exact path="/articles" component={ArticlePage} />
+          <Route exact path="/articles" component={ArticlesOverviewPage} />
+          <Route
+            exact
+            path="/articles/serverless"
+            component={ArticlesServerlessPage}
+          />
+          <Route path="/articles/:slug" component={ArticlePage} />
+
           <Route component={StartPage} />
         </Switch>
       </main>
