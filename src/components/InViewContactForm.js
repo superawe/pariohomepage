@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "intersection-observer";
 import { useInView } from "react-intersection-observer";
 
 const InViewContactForm = () => {

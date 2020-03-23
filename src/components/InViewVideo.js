@@ -1,4 +1,5 @@
 import React from "react";
+import "intersection-observer";
 import { useInView } from "react-intersection-observer";
 
 const InViewVideo = () => {
