@@ -32,12 +32,12 @@ function StartPage() {
                   Pario är ett konsultbolag i Stockholm som består av mig, Arvid
                   Sahlin, som ni ser på bilden ovan. Jag har lång erfarenhet av
                   mjukvaruutveckling och har jobbat både som konsult och med
-                  egna produkter. Inom produktutveckling jobbar jag både med
-                  idé, planering och genomförande och jag tycker om att jobba i
+                  egna produkter. Jag jobbar med alla faser inom digital produktutveckling, från
+                  idé och planering till färdig produkt, och jag tycker om att jobba i
                   team med smarta människor.
                   <br />
                   På tekniksidan är jag just nu mest intresserad av Serverless,
-                  Azure cloud solutions, API-design, c# och prisvärd skalbarhet.
+                  Azure cloud solutions, API-design, C# och prisvärd skalbarhet.
                   Till vardags är det mest konsulting inom systemutveckling som
                   gäller. Scrolla vidare för att läsa om olika{" "}
                   <Scroll.Link
@@ -90,7 +90,7 @@ function StartPage() {
                   <p className="text-black-50 mb-0">
                     Wide narrow SaaS mjukvara, ett molnbaserat system för ökad
                     produktivitet för intelligence teams. Ett urval av använda
-                    tekniker; React, .Net c# api, SQL-server, Machine learning,
+                    tekniker; React, .Net C# API, SQL-server, Machine learning,
                     indexsök. Wide narrow är ett långt konsultuppdrag där jag
                     jobbat som CTO och systemutvecklare med idéer och
                     genomförande. Läs mer om produkten på{" "}
@@ -122,7 +122,7 @@ function StartPage() {
                   <p className="text-black-50 mb-0">
                     Mjukvara och process för att ta tillvara på ditt teams idéer
                     och innovationskraft. Ett urval av använda tekniker; React,
-                    Serverless c# api, Table storage, köhantering och triggers.
+                    Serverless C# API, Table storage, köhantering och triggers.
                     Minimala driftkostnader med maximal skalbarhet. Bodhi är en
                     egen startup där jag är delgrundare och utvecklare. Läs mer
                     om produkten på{" "}
@@ -153,7 +153,7 @@ function StartPage() {
                     <div className="project-text w-100 my-auto text-center text-lg-left">
                       <h4 className="text-white">Soft running</h4>
                       <p className="mb-0 text-white-50">
-                        En experimentell iOs-app baserad på antagandet att din
+                        En experimentell iOS-app baserad på antagandet att din
                         löpning kan förbättras genom direkt feedback på
                         analyserad rörelse. Eget hobbyprojekt med idé, design
                         och utveckling. Testa produkten på
@@ -188,7 +188,7 @@ function StartPage() {
                       <p className="mb-0 text-white-50">
                         Ett kul litet hobbyprojekt för att utforska
                         möjligheterna med iPhones true depth-kamera. Tekniker
-                        använda är iOs swift, ArKit, Blender face rigging.
+                        använda är iOS swift, ArKit samt Blender face rigging.
                         <br />
                         Testa produkten på:
                       </p>
