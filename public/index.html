@@ -64,4 +64,17 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <!-- plugin initialization -->
+  <script
+    type="text/javascript"
+    src="https://kontributtest.z6.web.core.windows.net/index.js"
+  ></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // create instance of a plugin
+      var instance = Kontribut({});
+      // initialize
+      instance.init();
+    });
+  </script>
 </html>
