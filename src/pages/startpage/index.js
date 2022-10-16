@@ -91,9 +91,9 @@ function StartPage() {
                     Wide narrow SaaS mjukvara, ett molnbaserat system för ökad
                     produktivitet för intelligence teams. Ett urval av använda
                     tekniker; React, .Net C# API, SQL-server, Machine learning,
-                    indexsök. Wide narrow är ett långt konsultuppdrag där jag
-                    jobbat som CTO och systemutvecklare med idéer och
-                    genomförande. Läs mer om produkten på{" "}
+                    indexsök. Jag jobbar sen länge på Wide narrow som CTO tillsammans
+                    med ett grymt gäng produkt- och systemutvecklare.
+                    Läs mer om produkten på{" "}
                     <a
                       href="https://www.widenarrow.com"
                       target="_blank"
