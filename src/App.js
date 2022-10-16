@@ -7,6 +7,8 @@ import StartPage from "./pages/startpage";
 import ArticlesOverviewPage from "./pages/articlesoverview";
 import ArticlesServerlessPage from "./pages/articles/serverless";
 import ArticlePage from "./pages/articles";
+import TestContentPage from "./pages/testcontent";
+import TimePage from "./pages/time";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route exact path="/" component={StartPage} />
           <Route path="/start" component={StartPage} />
           <Route exact path="/articles" component={ArticlesOverviewPage} />
+          <Route exact path="/testcontent" component={TestContentPage} />
+          <Route exact path="/time" component={TimePage} />
           <Route
             exact
             path="/articles/serverless"
