@@ -24,7 +24,9 @@ function TestContentPage() {
 
     fetch("https://wnqacontentcache.azurewebsites.net/api/Content?url=" + url, {
       method: "GET",
-      headers: new Headers(),
+      headers: new Headers({
+        wntoken: "abc123",
+      }),
     })
       .then((res) => res.json())
       .then((data) => {
