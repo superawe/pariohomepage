@@ -22,7 +22,7 @@ function TestContentPage() {
     setFormSubmitting(true);
     setContent("");
 
-    fetch("https://wnqacontentcache.azurewebsites.net/api/Content?url=" + url, {
+    fetch("https://wn-qa-read-proxy.azurewebsites.net/api/Content?url=" + url, {
       method: "GET",
       headers: new Headers({
         wntoken: "abc123",
