@@ -76,12 +76,12 @@ function TestContentPage() {
                       type="text"
                       className="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0"
                       id="inputUrl"
-                      placeholder="ENTER URL..."
+                      placeholder="ENTER PROMPT..."
                       value={url}
                       onChange={(e) => setUrl(e.target.value)}
                     />
                     <button type="submit" className="btn btn-primary mx-auto">
-                      EXTRACT
+                      ANSWER
                     </button>
                   </form>
                   {formSubmitted !== true && formSubmitting !== true && (
