@@ -22,7 +22,7 @@ function TestContentPage() {
     setFormSubmitting(true);
     setContent("");
 
-    fetch("https://wn-qa-read-proxy.azurewebsites.net/api/Content?url=" + url, {
+    fetch("https://fine-tuned-knowledge.azurewebsites.net/api/Function1?prompt=" + url, {
       method: "GET",
       headers: new Headers({
         wntoken: "abc123",
@@ -33,7 +33,7 @@ function TestContentPage() {
         setFormSubmitted(true);
         setFormSubmitting(false);
         setSendError(false);
-        setContent(data.article.content);
+        setContent(data.completion);
       })
       .catch((err) => {
         console.log(err);
